@@ -1,0 +1,63 @@
+# --- macOS 系統檔 ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows 系統檔 ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- 編輯器設定 ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- 暫存與快取 ---
+__pycache__/
+*.tmp
+*.bak
+*.log
+cache/
+temp/
+backup/
+
+# --- Blender / Maya / Unreal / AE ---
+*.blend1
+*.blend2
+*.autosave
+*.ma~
+*.mb~
+*.uasset
+*.umap
+*.aepx
+*.aet
+*.aegraphic
+*.aep
+*.expsession
+*.render
+*.mel
+
+# --- Build 輸出 / 輔助工具 ---
+build/
+dist/
+*.app
+*.exe
+*.dll
+*.dmg
+*.pkg
+*.zip
+
+# --- 環境變數與密鑰 ---
+.env
+.env.local
+.env.production
+.env.development
+
+# --- Git LFS 不需忽略的例外（防止誤忽略素材）---
+!*.psd
+!*.fbx
+!*.mov
+!*.wav
+!*.exr
