@@ -2,6 +2,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
 
 # --- Windows 系統檔 ---
 Thumbs.db
@@ -22,6 +23,14 @@ __pycache__/
 cache/
 temp/
 backup/
+
+# --- Photoshop / 設計軟體常見暫存 ---
+~$*.psd
+~$*.psb
+*.psd~
+*.psb~
+*.psd.autosave
+*.psb.autosave
 
 # --- Blender / Maya / Unreal / AE ---
 *.blend1
